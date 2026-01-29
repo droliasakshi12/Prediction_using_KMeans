@@ -43,13 +43,13 @@ The user defines the number of clusters **k** before training. A common techniqu
 2. **Data Preprocessing** Inspect the dataset for structure, clean if necessary, and prepare it for clustering.
 
 3. **Train K-Means Model** Use `scikit-learn`’s `KMeans` implementation to fit the model to the data.
-
-   ```python
+```python
    from sklearn.cluster import KMeans
 
    kmeans = KMeans(n_clusters=k)
    kmeans.fit(data)
 ```
+
 4. **Visualize Clusters** Use visual tools like `matplotlib` or `seaborn` to display clusters and centroids.
 
 5. **Make Predictions** Assign each data point to a cluster and interpret results.
